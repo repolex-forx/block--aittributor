@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "aittributor",
+  "versions": [
+    {
+      "commit": "d5e38cb77b428828982e24b27d43ce9e6295be78",
+      "tag": "main",
+      "parsed_at": "2026-10-01T06:33:51.413328+00:00"
+    }
+  ]
+}
