@@ -48,6 +48,49 @@
       ],
       "ast": [
         "aggregate/ast/d5e38cb77b428828982e24b27d43ce9e6295be78/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/d5e38cb77b428828982e24b27d43ce9e6295be78.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "clap",
+          "ecosystem": "CARGO",
+          "version": "4",
+          "githubOrg": "clap-rs",
+          "githubRepo": "clap",
+          "githubUrl": "https://github.com/clap-rs/clap",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "sysinfo",
+          "ecosystem": "CARGO",
+          "version": "0.39",
+          "githubOrg": "GuillaumeGomez",
+          "githubRepo": "sysinfo",
+          "githubUrl": "https://github.com/GuillaumeGomez/sysinfo",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "whoami",
+          "ecosystem": "CARGO",
+          "version": "2.1.0",
+          "githubOrg": "ardaku",
+          "githubRepo": "whoami",
+          "githubCommit": "b3012d7a6fc33256d4ae3bc0b3e3a0cf24fd409d",
+          "githubTag": "v2.1.0",
+          "githubUrl": "https://github.com/ardaku/whoami",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tempfile",
+          "ecosystem": "CARGO",
+          "version": "3.24.0",
+          "githubOrg": "Stebalien",
+          "githubRepo": "tempfile",
+          "githubCommit": "1712764bb4be5f7787d9b24e6d99961178a52b47",
+          "githubTag": "v3.24.0",
+          "githubUrl": "https://github.com/Stebalien/tempfile",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],

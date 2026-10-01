@@ -48,10 +48,38 @@
       "repolex:graphType": "ast",
       "repolex:graphFilePath": "aggregate/ast/d5e38cb77b428828982e24b27d43ce9e6295be78/chunk-001.nq.gz",
       "repolex:graphFileSize": 1115878
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "lsp",
+      "repolex:graphFilePath": "aggregate/lsp/d5e38cb77b428828982e24b27d43ce9e6295be78.nq.gz",
+      "repolex:graphFileSize": 105238
     }
   ],
-  "repolex:parseStatus": "ast_complete",
+  "repolex:parseStatus": "enrich_complete",
   "repolex:parsedAt": "2026-10-01T06:18:00.418668+00:00",
   "repolex:parserVersion": "0.1.10",
-  "git:tagName": "main"
+  "git:tagName": "main",
+  "repolex:dependencyRepo": [
+    {
+      "@id": "https://repolex.ai/r/clap-rs/clap",
+      "repolex:packageName": "clap"
+    },
+    {
+      "@id": "https://repolex.ai/r/GuillaumeGomez/sysinfo",
+      "repolex:packageName": "sysinfo"
+    },
+    {
+      "@id": "https://repolex.ai/r/ardaku/whoami",
+      "repolex:packageName": "whoami",
+      "git:hexsha": "b3012d7a6fc33256d4ae3bc0b3e3a0cf24fd409d",
+      "git:tagName": "v2.1.0"
+    },
+    {
+      "@id": "https://repolex.ai/r/Stebalien/tempfile",
+      "repolex:packageName": "tempfile",
+      "git:hexsha": "1712764bb4be5f7787d9b24e6d99961178a52b47",
+      "git:tagName": "v3.24.0"
+    }
+  ]
 }
